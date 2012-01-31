@@ -12,14 +12,23 @@ gapi.hangout.onApiReady.add(function(apiInitEvent) {
 
 function start() {
 
+  console.log('Start begin');
+
+  gapi.hangout.layout.displayNotice('Welcome', false);
   gapi.hangout.layout.displayNotice('Starting app...', false);
 
+  console.log('Get participants');
   users = gapi.hangout.getParticipants();
+  console.log('Participants count : ' + users.count());
+
+  console.log('Get current user');
   currentUser = gapi.hangout.getParticipantById(gapi.hangout.getParticipantId());
+  console.log('Current user : ' + currentUser.person.displayName);
 
   refresh();
 
   gapi.hangout.layout.displayNotice('Done !', false);
+  console.log('Start finish');
 }
 
 $('#button_ask').click(function() {
