@@ -8,10 +8,10 @@
     <![CDATA[
       <script src="//hangoutsapi.talkgadget.google.com/hangouts/api/hangout.js?v=0.1"></script>
       <script type="text/javascript" src="//raw.github.com/lukaspili/GPlus-hangout-API/master/app.js"></script>
-      <link rel="stylesheet" type="text/css" href="app.css">
+      <link rel="stylesheet" type="text/css" href="//raw.github.com/lukaspili/GPlus-hangout-API/master/app.css">
 
       <div id="header">
-        <img src="//zenika.com/templates/zenika/images/logo.gif" />
+        <img src="//raw.github.com/lukaspili/GPlus-hangout-API/master/logo.gif" />
         <h1>Zenika Demo !</h1>
       </div>
 
