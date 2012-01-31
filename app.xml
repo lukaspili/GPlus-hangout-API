@@ -8,6 +8,39 @@
     <![CDATA[
       <script src="//hangoutsapi.talkgadget.google.com/hangouts/api/hangout.js?v=0.1"></script>
       <script type="text/javascript" src="//raw.github.com/lukaspili/GPlus-hangout-API/master/app.js"></script>
+
+      <div id="header">
+        <img src="//zenika.com/templates/zenika/images/logo.gif" />
+        <h1>Zenika Demo !</h1>
+      </div>
+
+      <div class="clear"></div>
+
+      <div id="main">
+        
+        <div id="left">
+          <p>Users :</p>
+          <ul id="users_list">
+            <li>Foo</li>
+            <li>Bar</li>
+          </ul>
+        </div>
+
+        <div id="right">
+          <p>Hands :</p>
+          <ul id="hands_list">
+            <li>Toto</li>
+          </ul>
+        </div>
+
+        <div class="clear"></div>
+
+        <p id="panel">
+          Interact with the speaker : <br>
+          <button id="button_ask">Rise hand</button>
+          <button id="button_cancel">Hide hand</button>
+        </p>
+      </div>
     ]]>
   </Content>
 </Module>
