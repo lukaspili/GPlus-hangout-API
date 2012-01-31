@@ -6,6 +6,10 @@
   </ModulePrefs>
   <Content type="html">
     <![CDATA[
+      <!-- jquery -->
+      <script type="text/javascript" src="//www.google.com/jsapi"></script>
+      <script type="text/javascript">google.load("jquery", "1.7.1");</script>
+
       <script src="//hangoutsapi.talkgadget.google.com/hangouts/api/hangout.js?v=0.1"></script>
       <script type="text/javascript" src="//raw.github.com/lukaspili/GPlus-hangout-API/master/app.js"></script>
       <link rel="stylesheet" type="text/css" href="//raw.github.com/lukaspili/GPlus-hangout-API/master/app.css">
